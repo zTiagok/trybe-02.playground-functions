@@ -78,7 +78,7 @@ Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://
 
 ## Data de Entrega
 
-  - Será `X` dia de projeto.
+  - Será `1` dia de projeto.
   - Data de entrega para avaliação final do projeto: `20/04/2022 14:00`.
 
 # Instruções para entregar seu projeto
