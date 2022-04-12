@@ -175,17 +175,117 @@ for (let index = 0; index < num.length; index += 1)
 return (array)
 }
 
-console.log(fizzBuzz([2, 15, 7, 9, 45]))
 
 // -------------------------------------------------
 
 // Desafio 9
-function encode() {
+function encode(string) {
   // seu código aqui
+
+let arrayModelo = []
+
+for (let index = 0; index < string.length; index += 1)
+{
+
+  if (string[index] === 'a')
+  {
+
+    arrayModelo[index] = 1
+  }
+  else if (string[index] === 'e')
+  {
+
+    arrayModelo[index] = 2
+  }
+  else if (string[index] === 'i')
+  {
+
+    arrayModelo[index] = 3
+  }
+  else if (string[index] === 'o')
+  {
+
+    arrayModelo[index] = 4
+  }
+  else if (string[index] === 'u')
+  {
+
+    arrayModelo[index] = 5
+  }
+  else
+  {
+
+    arrayModelo[index] = string[index]
+  }
+
+
+
 }
-function decode() {
-  // seu código aqui
+
+
+return arrayModelo.join('')
+
+
+
 }
+
+
+// -------------------------------------------------
+
+
+function decode(string) {
+
+  
+    // seu código aqui
+
+let arrayModelo = []
+
+for (let index = 0; index < string.length; index += 1)
+{
+
+  if (string[index] === '1')
+  {
+
+    arrayModelo[index] = 'a'
+  }
+  else if (string[index] === '2')
+  {
+
+    arrayModelo[index] = 'e'
+  }
+  else if (string[index] === '3')
+  {
+
+    arrayModelo[index] = 'i'
+  }
+  else if (string[index] === '4')
+  {
+
+    arrayModelo[index] = 'o'
+  }
+  else if (string[index] === '5')
+  {
+
+    arrayModelo[index] = 'u'
+  }
+  else
+  {
+
+    arrayModelo[index] = string[index]
+  }
+
+
+
+}
+
+
+return arrayModelo.join('')
+
+
+
+}
+
+console.log(decode('h3llo'))
 
 // -------------------------------------------------
 
