@@ -23,26 +23,40 @@ function calcArea(base, height) {
 // -------------------------------------------------
 
 // Desafio 3
-function splitSentence(array) {
+function splitSentence(string) {
   // seu código aqui
 
-  return array.split(' ')
+  return string.split(' ')
 
 }
+
+
 
 // -------------------------------------------------
 
 // Desafio 4
 function concatName() {
-  // seu código aqui
+
 }
+
+
 
 // -------------------------------------------------
 
 // Desafio 5
-function footballPoints() {
+function footballPoints(wins, ties) {
   // seu código aqui
+
+  let winPoints = wins * 3;
+  let tiePoints = ties;
+
+  return winPoints + tiePoints
+
+
+
 }
+
+console.log(footballPoints(14, 8));
 
 // -------------------------------------------------
 
