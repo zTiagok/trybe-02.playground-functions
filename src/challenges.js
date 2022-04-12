@@ -138,14 +138,44 @@ function catAndMouse(xMouse, xCat1, xCat2) {
 
 }
 
-
-console.log(catAndMouse(0,3,-2))
 // -------------------------------------------------
 
 // Desafio 8
-function fizzBuzz() {
+function fizzBuzz(num) {
   // seu código aqui
+
+let array = []
+
+for (let index = 0; index < num.length; index += 1)
+{
+
+  if ((num[index] % 3) == 0 && ((num[index] % 5) == 0))
+  {
+
+    array.push('fizzBuzz')
+  }
+  else if ((num[index] % 3) == 0)
+  {
+
+    array.push('fizz')
+  } 
+  else if ((num[index] % 5) == 0)
+  {
+
+    array.push('buzz')
+  }
+  else
+  {
+
+    array.push('bug!')
+  }
 }
+
+
+console.log(array)
+}
+
+console.log(fizzBuzz([2, 15, 7, 9, 45]))
 
 // -------------------------------------------------
 
