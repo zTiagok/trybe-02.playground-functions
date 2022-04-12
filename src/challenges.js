@@ -35,11 +35,18 @@ function splitSentence(string) {
 // -------------------------------------------------
 
 // Desafio 4
-function concatName() {
+function concatName(stringName) {
+
+  let lastName = stringName[stringName.length - 1]
+  let firstName = stringName[0]
+
+
+  return (lastName + ", " + firstName)
+  
 
 }
 
-
+concatName(['Captain1', 'my', 'captain'])
 
 // -------------------------------------------------
 
@@ -50,20 +57,21 @@ function footballPoints(wins, ties) {
   let winPoints = wins * 3;
   let tiePoints = ties;
 
-  return winPoints + tiePoints
+  return winPoints + tiePoints;
 
 
 
 }
-
-console.log(footballPoints(14, 8));
 
 // -------------------------------------------------
 
 // Desafio 6
-function highestCount() {
+function highestCount(num) {
   // seu código aqui
+
+
 }
+
 
 // -------------------------------------------------
 
