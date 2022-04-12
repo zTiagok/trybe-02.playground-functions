@@ -90,8 +90,6 @@ function highestCount(num) {
 
       greaterNum = num[index];
     }
-
-    
   }
 
   for (let index = 0; index < num.length; index += 1)
@@ -105,7 +103,6 @@ function highestCount(num) {
   }
 
   return repeated;
-
 }
 
 highestCount([-1,-2,-2])
@@ -134,7 +131,6 @@ function catAndMouse(xMouse, xCat1, xCat2) {
 
       return 'os gatos trombam e o rato foge'
   }
-
 
 }
 
@@ -170,7 +166,6 @@ for (let index = 0; index < num.length; index += 1)
     array.push('bug!')
   }
 }
-
 
 return (array)
 }
@@ -217,16 +212,9 @@ for (let index = 0; index < string.length; index += 1)
 
     arrayModelo[index] = string[index]
   }
-
-
-
 }
 
-
 return arrayModelo.join('')
-
-
-
 }
 
 
@@ -273,26 +261,45 @@ for (let index = 0; index < string.length; index += 1)
 
     arrayModelo[index] = string[index]
   }
-
-
-
 }
-
 
 return arrayModelo.join('')
-
-
-
 }
 
-console.log(decode('h3llo'))
 
 // -------------------------------------------------
 
 // Desafio 10
-function techList() {
-  // seu código aqui
+function techList(tech, name) {
+
+  let objeto = []
+
+  tech.sort()
+
+  if (tech.length === 0)
+  {
+
+    return 'Vazio!'
+  }
+
+  for (let index in tech)
+  {
+
+      objeto.push
+      (
+
+          {tech: tech[index],
+          name: name}
+      )
+  }
+
+
+  return (objeto);
+
 }
+
+
+console.log(techList(['HTML','CSS'],'Tiago'));
 
 // -------------------------------------------------
 
