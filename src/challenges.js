@@ -69,15 +69,18 @@ function footballPoints(wins, ties) {
 function highestCount(num) {
   // seu código aqui
 
-  let greaterNum = -99;
+  let greaterNum = 0;
+  let minorNum = 0;
   let repeated = 0;
 
-  // for (let index = 0; index < num.length; index += 1)
-  // {
+  for (let index = 0; index < num.length; index += 1)
+  {
 
-  //   if (num[index] < 0)
-    
-  // }
+    if (num[index] < minorNum)
+    minorNum = (num[index])
+  }
+
+  greaterNum = minorNum
 
   for (let index = 0; index < num.length; index += 1)
   {
@@ -101,7 +104,7 @@ function highestCount(num) {
     }
   }
 
-  return (repeated)
+  return repeated;
 
 }
 
