@@ -114,10 +114,32 @@ highestCount([-1,-2,-2])
 // -------------------------------------------------
 
 // Desafio 7
-function catAndMouse() {
-  // seu código aqui
+function catAndMouse(xMouse, xCat1, xCat2) {
+
+  let uCat1 = Math.abs(xMouse - xCat1);
+  let uCat2 = Math.abs(xCat2 - xMouse);
+
+  if (uCat2 < uCat1)
+  {
+
+      return 'cat2'
+  }
+  else if (uCat1 < uCat2)
+  {
+
+      return 'cat1'
+  }
+  else if (uCat1 === uCat2)
+  {
+
+      return 'os gatos trombam e o rato foge'
+  }
+
+
 }
 
+
+console.log(catAndMouse(0,3,-2))
 // -------------------------------------------------
 
 // Desafio 8
