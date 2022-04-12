@@ -172,7 +172,7 @@ for (let index = 0; index < num.length; index += 1)
 }
 
 
-console.log(array)
+return (array)
 }
 
 console.log(fizzBuzz([2, 15, 7, 9, 45]))
