@@ -299,8 +299,6 @@ function techList(tech, name) {
 }
 
 
-console.log(techList(['HTML','CSS'],'Tiago'));
-
 // -------------------------------------------------
 
 module.exports = {
