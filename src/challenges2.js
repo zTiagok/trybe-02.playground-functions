@@ -48,17 +48,46 @@ function generatePhoneNumber(phoneNumber) {
   return ("(" + phoneNumber[0] + phoneNumber[1] + ") " + phoneNumber[2] + phoneNumber[3] + phoneNumber [4] + phoneNumber[5] + phoneNumber[6] + "-" 
   + phoneNumber[7] + phoneNumber[8] + phoneNumber[9] + phoneNumber[10])
 
-
-
-
-
-
-
 }
 
 // Desafio 12
-function triangleCheck() {
+function triangleCheck(lineA, lineB, lineC) {
   // seu código aqui
+
+  let average = Math.abs((lineA + lineB + lineC) / 3)
+  let checkA, checkB, checkC = false;
+
+  if (lineA < (lineB + lineC) && lineA > average)
+  {
+
+    checkA = true;
+  }
+
+  if (lineB < (lineA + lineC) && lineB > average)
+  {
+
+    checkB = true;
+  }
+  if (lineC < (lineB + lineA) && lineC > average)
+  {
+
+    checkC = true;
+  }
+
+
+
+  if (checkA === true && checkB === true && checkC === true)
+  {
+
+    return true;
+  }
+  else
+  {
+
+    return false;
+  }
+  
+
 }
 
 // Desafio 13
