@@ -70,9 +70,35 @@ function triangleCheck(lineA, lineB, lineC) {
 }
 
 // Desafio 13
-function hydrate() {
+function hydrate(liquor) {
   // seu código aqui
+  let filter = /\d+/g;
+  let correction = liquor.match(filter)
+  let sum = 0;
+
+
+  for (let index = 0; index < correction.length; index += 1)
+  {
+
+   correction[index] = parseInt(correction[index])
+
+   sum += correction[index]
+  }
+
+
+  if (sum == 1)
+  {
+
+    return sum + " copo de água"
+  }
+  else
+  {
+
+    return sum + " copos de água"
+  }
 }
+
+console.log(hydrate('1 cachaça, 2 cervejas'))
 
 module.exports = {
   generatePhoneNumber,
