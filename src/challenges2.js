@@ -55,39 +55,18 @@ function triangleCheck(lineA, lineB, lineC) {
   // seu código aqui
 
   let average = Math.abs((lineA + lineB + lineC) / 3)
-  let checkA, checkB, checkC = false;
-
-  if (lineA < (lineB + lineC) && lineA > average)
-  {
-
-    checkA = true;
-  }
-
-  if (lineB < (lineA + lineC) && lineB > average)
-  {
-
-    checkB = true;
-  }
-  if (lineC < (lineB + lineA) && lineC > average)
-  {
-
-    checkC = true;
-  }
 
 
-
-  if (checkA === true && checkB === true && checkC === true)
-  {
-
-    return true;
-  }
-  else
+  if (lineA > (lineB + lineC) || lineB > (lineA + lineC) || lineC > (lineA + lineB))
   {
 
     return false;
   }
-  
+  else
+  {
 
+    return true;
+  }
 }
 
 // Desafio 13
