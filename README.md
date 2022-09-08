@@ -23,7 +23,7 @@
   <br>
   <span> My first contact with Javascript. </span> 
   <br><br>
-  <span> - </span>
+  <span> The purpose of this project was to use programming logic in Javascript to make functions that would solve the requirement conditions.  </span>
   <br>
   <hr>
   <h3>
