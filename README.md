@@ -18,6 +18,13 @@
   <br>
   <hr>
   <h3>
+    🚨 Warning 🚨
+  </h3>
+  <br>
+  <span> The test files were provided by Trybe to evaluate the project. </span>
+  <br>
+  <hr>
+  <h3>
     ℹ️ Information ℹ️
   </h3>
   <br>
