@@ -39,19 +39,19 @@
   <div align="left">
   <br>
   
-- [X] 1. Create a function using the && operator.
-- [X] 2. Create a function that calculates the area of the triangle.
-- [X] 3. Create a function that splits a sentence.
-- [X] 4. Create a function that uses string concatenation.
-- [X] 5. Create a function that calculates the soccer score points.
-- [X] 6. Create a function that calculates the repetition of the highest number.
-- [X] 7. Create a mouse hunt function.
-- [X] 8. Create a FizzBuzz function.
-- [X] 9. Create an encode and decode function.
-- [X] 10. Create a technology list function.
-- [X] 11. Create a phone number function.
-- [X] 12. Create a triangle existence condition function.
-- [X] 13. Create a "Welcome to Trybe's Bar" function.
+- [X] 1. Create a function `using the && operator`.
+- [X] 2. Create a function that `calculates the area of the triangle`.
+- [X] 3. Create a function that `splits a sentence`.
+- [X] 4. Create a function that `uses string concatenation`.
+- [X] 5. Create a function that `calculates the soccer score points`.
+- [X] 6. Create a function that `calculates the repetition of the highest number`.
+- [X] 7. Create a `mouse hunt` function.
+- [X] 8. Create a `FizzBuzz` function.
+- [X] 9. Create an `encode and decode` function.
+- [X] 10. Create a `technology list` function.
+- [X] 11. Create a `phone number` function.
+- [X] 12. Create a `triangle existence condition function`.
+- [X] 13. Create a `"Welcome to Trybe's Bar"` function.
   </div>
   <br>
   <hr>
