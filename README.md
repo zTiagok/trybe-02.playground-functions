@@ -80,6 +80,10 @@
   <span> ◐ Creating a list of technologies you want to learn. ◑ </span>
   <br><br>
   <span> ◐ Generating a phone number. ◑ </span>
+  <br><br>
+  <span> ◐ Check if a triangle can be formed with 3 position parameters. ◑ </span>
+  <br><br>
+  <span> ◐ Compares how many foods there are in a parameter and returns how many glasses of water should be drunk compared to the amount of food. ◑ </span>
   <br>
   
   <hr>
