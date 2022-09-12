@@ -56,11 +56,32 @@
   <br>
   <hr>
   <h3>
-    📄 Pages and Components 📄
+    📄 Features 📄
   </h3>
   <br>
-  <span> Javascript
+  <span> ◐ Comparison of equal parameters. ◑ </span>
+  <br><br>
+  <span> ◐ Calculation of the area of a triangle. ◑ </span>
+  <br><br>
+  <span> ◐ Separation of a sentence returning an array of strings. ◑ </span>
+  <br><br>
+  <span> ◐ Concatenation of strings. ◑ </span>
+  <br><br>
+  <span> ◐ Calculation of the amount of points in soccer. ◑ </span>
+  <br><br>
+  <span> ◐ Calculation of the repetition of the highest number. ◑ </span>
+  <br><br>
+  <span> ◐ Position calculation between two cats and a mouse, which returns the cat closest to the mouse position. ◑ </span>
+  <br><br>
+  <span> ◐ Return of an array with values of "bug!" and "fizzBuzz". ◑ </span>
+  <br><br>
+  <span> ◐ Decoding and encoding letters into numbers. ◑ </span>
+  <br><br>
+  <span> ◐ Creating a list of technologies you want to learn. ◑ </span>
+  <br><br>
+  <span> ◐ Generating a phone number. ◑ </span>
   <br>
+  
   <hr>
   <h3>
     📦 Frameworks and Libraries 📦
