@@ -84,8 +84,7 @@
   <span> ◐ Check if a triangle can be formed with 3 position parameters. ◑ </span>
   <br><br>
   <span> ◐ Compares how many foods there are in a parameter and returns how many glasses of water should be drunk compared to the amount of food. ◑ </span>
-  <br>
-  
+  <br><br>
   <hr>
   <h3>
     📦 Frameworks and Libraries 📦
